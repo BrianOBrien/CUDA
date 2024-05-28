@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;cube/cube.cu&apos; to &apos;main.cu&apos;" description="Rename resource &apos;cube.cu&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="cube.cu" name="main.cu" stamp="1397846535972" updateReferences="true"/>
-</session>
