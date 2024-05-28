@@ -1,0 +1,17 @@
+12:42:46 **** Incremental Build of configuration Debug for project cube ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "" -M -o "main.d" "../main.cu"
+/Developer/NVIDIA/CUDA-6.0/bin/nvcc --compile -G -O0 -g -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: cube
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.0/bin/nvcc --cudart static -link -o  "cube"  ./main.o   
+nvcc warning : The 'compute_10' and 'sm_10' architectures are deprecated, and may be removed in a future release.
+Finished building target: cube
+ 
+
+12:42:48 Build Finished (took 1s.732ms)
+
